@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 .body {
@@ -18,7 +17,6 @@
   background-color: #E1FF8F;
   background-size: cover;
   background-position: center;
-  height: 800px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -50,6 +48,7 @@
   text-decoration: none;
   font-weight: 600;
   font-size: 24px;
+  margin-bottom: 141px;
   color: #FFFFFF;
   background: #202027;
   border: 1px solid #FFFFFF;
@@ -266,17 +265,27 @@
 }
 
 @media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .header-block {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
   .header-block__title {
     font-size: 40px;
     text-align: center;
     padding-top: 147px;
+    max-width: 376px;
   }
   .header-block__discription {
     font-size: 16px;
     text-align: center;
   }
   .header-block__link {
-    margin-left: 46px;
     margin-top: 36px;
     width: 285px;
     height: 55px;
@@ -288,6 +297,9 @@
   }
   .block-game {
     display: none;
+  }
+  .block-minigame {
+    padding-bottom: 48.88px;
   }
   .block-minigame__game {
     display: flex;
@@ -319,6 +331,7 @@
   .block-minigame__discription {
     font-size: 16px;
     margin-top: 16px;
+    line-height: 100%;
   }
   .block-minigame__discription_mob {
     max-width: 285px;
@@ -328,5 +341,12 @@
     width: 285px;
     height: 55px;
     font-size: 16px;
+  }
+  .footer {
+    height: 100px;
+  }
+  .footer__title {
+    font-size: 16px;
+    padding-top: 40px;
   }
 }/*# sourceMappingURL=style.css.map */

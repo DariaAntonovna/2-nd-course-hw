@@ -5,8 +5,8 @@ a = 20;
 alert(a);
 
 //Задание 2
-let b = ('Года выпуска первого iPhone - June 29, 2007');
-alert(b);
+let b = 2007;
+alert(`Год выпуска первого iPhone - June 29, ${b}`);
 
 //Задание 3
 let c = ('Создатель языка JavaScript - Brendan Eich');
