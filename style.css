@@ -1,0 +1,352 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.header {
+  background-color: #E1FF8F;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.header-block__title {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 64px;
+  padding-top: 196px;
+}
+
+.header-block__discription {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 24px;
+  padding-top: 24px;
+  max-width: 720px;
+}
+
+.highlight {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.header-block__link {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 141px;
+  color: #FFFFFF;
+  background: #202027;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 60px;
+  width: 247px;
+  height: 66px;
+  margin-top: 48px;
+  padding-top: 16px;
+  text-align: center;
+}
+
+.header-block__link:hover {
+  color: #202027;
+  border-color: #202027;
+  background: #FFFFFF;
+}
+
+.block-game {
+  background-color: #202027;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.block-game__mob {
+  display: none;
+}
+
+.block-game__header {
+  font-weight: 600;
+  font-size: 64px;
+  color: #FFFFFF;
+  line-height: 78.02px;
+  padding-top: 95px;
+}
+
+.block-game__discription {
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFFFFF;
+  line-height: 32px;
+  width: 788px;
+  margin-top: 24px;
+}
+
+.block-game__box {
+  margin-top: 72px;
+  display: grid;
+  grid-template-columns: repeat(3, 378px);
+  grid-auto-rows: minmax(473px, auto);
+  gap: 32px;
+  justify-content: center;
+}
+
+.block-game__game {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.block-game__link {
+  text-decoration: none;
+  color: #202027;
+}
+
+.block-game__form {
+  background-color: #FFFFFF;
+  border-radius: 30px;
+  width: 378px;
+}
+
+.block-game__form_small {
+  height: 473px;
+}
+
+.block-game__form_medium {
+  height: 512px;
+}
+
+.block-game__form_big {
+  height: 551px;
+}
+
+.block-game__form:hover {
+  transform: scale(1.1);
+}
+
+.block-game__img {
+  border-radius: 30px;
+}
+
+.block-game__span {
+  display: inline-block;
+  border-radius: 52.58px;
+  background-color: #F7F7F7;
+  width: 108px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 36px;
+}
+
+.block-game__title {
+  font-weight: 700;
+  font-size: 32px;
+  width: 314px;
+  margin-top: 16px;
+}
+
+.block-game__indentation {
+  padding: 32px 32px 20px 32px;
+}
+
+.block-minigame {
+  background-color: #202027;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-bottom: 144px;
+}
+
+.block-minigame__game {
+  margin-top: 72px;
+}
+
+.block-minigame__header {
+  margin-top: 96px;
+  font-weight: 700;
+  font-size: 64px;
+  color: #FFFFFF;
+}
+
+.block-minigame__form {
+  background-color: #FFFFFF;
+  width: 1200px;
+  border-radius: 30px;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.block-minigame__divcontent {
+  margin-left: 48px;
+}
+
+.block-minigame__title {
+  font-weight: 700;
+  font-size: 48px;
+  margin-top: 48px;
+}
+
+.block-minigame__discription {
+  font-weight: 400;
+  font-size: 24px;
+  margin-top: 24px;
+}
+
+.block-minigame__link {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 24px;
+  padding-top: 16px;
+  color: #FFFFFF;
+  text-align: center;
+  background: #202027;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 30px;
+  width: 247px;
+  height: 66px;
+  margin-top: 36px;
+}
+
+.block-minigame__link:hover {
+  color: #202027;
+  border-color: #202027;
+  background: #FFFFFF;
+}
+
+.block-minigame__img {
+  width: 600px;
+  height: 500px;
+  border-radius: 30px;
+}
+
+.footer {
+  background-color: #BDED35;
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.footer__title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29.26px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 61px;
+}
+
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .header-block {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .header-block__title {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 147px;
+    max-width: 376px;
+  }
+  .header-block__discription {
+    font-size: 16px;
+    text-align: center;
+  }
+  .header-block__link {
+    margin-top: 36px;
+    width: 285px;
+    height: 55px;
+    font-size: 16px;
+  }
+  .highlight {
+    font-size: 16px;
+    line-height: 100%;
+  }
+  .block-game {
+    display: none;
+  }
+  .block-minigame {
+    padding-bottom: 48.88px;
+  }
+  .block-minigame__game {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .block-minigame__header {
+    font-size: 40px;
+  }
+  .block-minigame__form {
+    flex-direction: column;
+    align-items: center;
+    max-width: 343px;
+    height: auto;
+  }
+  .block-minigame__divcontent {
+    order: 1;
+    margin: 29.04px 29.04px 29.04px 32.67px;
+  }
+  .block-minigame__img {
+    width: 100%;
+    height: auto;
+  }
+  .block-minigame__title {
+    font-size: 32px;
+    margin-top: unset;
+  }
+  .block-minigame__discription {
+    font-size: 16px;
+    margin-top: 16px;
+    line-height: 100%;
+  }
+  .block-minigame__discription_mob {
+    max-width: 285px;
+    max-height: 60px;
+  }
+  .block-minigame__link {
+    width: 285px;
+    height: 55px;
+    font-size: 16px;
+  }
+  .footer {
+    height: 100px;
+  }
+  .footer__title {
+    font-size: 16px;
+    padding-top: 40px;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,11 +1,208 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Homework1</title>
-    </head>
-    <body>
-        
-    </body>
-    </html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body class="body">
+
+
+
+    <section class="header">
+        <div class="header-block center">
+            <h1 class="header-block__title">Добро пожаловать<br>
+                на мой сайт мини-игр.</h1>
+            <p class="header-block__discription">Тебе предстоит пройти несколько<br>
+                увлекательных игр.Если готов,<br>
+                нажимай
+                <span class="highlight">«Поехали!»</span> и <span class="highlight">приступай.</span>
+            </p>
+            <a class="header-block__link" href="#aboutgame">Поехали!</a>
+        </div>
+    </section>
+
+    <div class="block-game center">
+        <div class="block-game__information">
+            <h2 class="block-game__header" id="aboutgame">Об играх</h2>
+            <p class="block-game__discription">В моей коллекции представлено 6 игр на разные темы. Игры несложные — в
+                них
+                может поиграть каждый. Все игры
+                доступны для пользования.
+            </p>
+        </div>
+        <div class="block-game__box">
+            <div class="block-game__game">
+                <a class="block-game__link" href="#guessthenumber">
+                    <div class="block-game__form block-game__form_small" action="">
+                        <img class="block-game__img" src="img/guessthenumber.png" alt="">
+                        <div class="block-game__indentation">
+                            <span class="block-game__span">Игра № 1</span>
+                            <h4 class="block-game__title">Угадай число</h4>
+                        </div>
+                    </div>
+                </a>
+                <a class="block-game__link" href="#rockpaperscissors">
+                    <div class="block-game__form block-game__form_big" action="">
+                        <img class="block-game__img" src="img/rockpaperscissors.png" alt="">
+                        <div class="block-game__indentation">
+                            <span class="block-game__span">Игра № 4</span>
+                            <h4 class="block-game__title">Камень, ножницы, бумага</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="block-game__game">
+                <a class="block-game__link" href="#simplearithmetic">
+                    <div class="block-game__form block-game__form_medium" action="">
+                        <img class="block-game__img" src="img/simplearithmetic.png" alt="">
+                        <div class="block-game__indentation">
+                            <span class="block-game__span">Игра № 2</span>
+                            <h4 class="block-game__title">Простая арифметика</h4>
+                        </div>
+                    </div>
+                </a>
+                <a class="block-game__link" href="#simplequiz">
+                    <div class="block-game__form block-game__form_medium" action="">
+                        <img class="block-game__img" src="img/simplequiz.png" alt="">
+                        <div class="block-game__indentation">
+                            <span class="block-game__span">Игра № 5</span>
+                            <h4 class="block-game__title">Простая викторина</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="block-game__game">
+                <a class="block-game__link" href="#turnthetextover">
+                    <div class="block-game__form block-game__form_small" action="">
+                        <img class="block-game__img" src="img/turnthetextover.png" alt="">
+                        <div class="block-game__indentation">
+                            <span class="block-game__span">Игра № 3</span>
+                            <h4 class="block-game__title">Переверни текст</h4>
+                        </div>
+                    </div>
+                </a>
+                <a class="block-game__link" href="#randomcolorgenerator">
+                    <div class="block-game__form block-game__form_big" action="">
+                        <img class="block-game__img" src="img/randomcolorgenerator.png" alt="">
+                        <div class="block-game__indentation">
+                            <span class="block-game__span">Игра №6</span>
+                            <h4 class="block-game__title">Генератор случайных цветов</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="block-minigame center">
+
+        <h2 class="block-minigame__header">Мини-игры</h2>
+
+        <div class="block-minigame__game" id="guessthenumber">
+            <form class="block-minigame__form" action="">
+                <div class="block-minigame__divcontent">
+                    <h4 class="block-minigame__title">Угадай число</h4>
+                    <p class="block-minigame__discription">Попробуй угадать случайное число от 1 до 100.</p>
+                    <a class="block-minigame__link center" href="">Играть!</a>
+                </div>
+                <div class="block-minigame__divimg">
+                    <img class="block-minigame__img" src="img/guessthenumber.png" alt="">
+                </div>
+            </form>
+        </div>
+
+
+
+        <div class="block-minigame__game" id="simplearithmetic">
+            <form class="block-minigame__form" action="">
+                <div class="block-minigame__divimg">
+                    <img class="block-minigame__img" src="img/simplearithmetic.png" alt="">
+                </div>
+                <div class="block-minigame__divcontent">
+                    <h4 class="block-minigame__title">Простая арифметика</h4>
+                    <p class="block-minigame__discription">Попробуй решить простые арифметические задачи.</p>
+                    <a class="block-minigame__link center" href="">Играть!</a>
+                </div>
+            </form>
+        </div>
+
+        <div class="block-minigame__game" id="turnthetextover">
+            <form class="block-minigame__form" action="">
+                <div class="block-minigame__divcontent">
+                    <h4 class="block-minigame__title">Переверни текст</h4>
+                    <p class="block-minigame__discription">Попробуй ввести текст, который будет перевернут.</p>
+                    <a class="block-minigame__link center" href="">Играть!</a>
+                </div>
+
+                <div class="block-minigame__divimg">
+                    <img class="block-minigame__img" src="img/turnthetextover.png" alt="">
+                </div>
+            </form>
+        </div>
+
+        <div class="block-minigame__game" id="simplequiz">
+            <form class="block-minigame__form" action="">
+                <div class="block-minigame__divimg">
+                    <img class="block-minigame__img" src="img/simplequiz.png" alt="">
+                </div>
+
+                <div class="block-minigame__divcontent">
+                    <h4 class="block-minigame__title">Викторина</h4>
+                    <p class="block-minigame__discription">Отвечай на вопросы викторины с вариантами ответов.</p>
+                    <a class="block-minigame__link center" href="">Играть!</a>
+                </div>
+            </form>
+        </div>
+
+        <div class="block-minigame__game" id="rockpaperscissors">
+            <form class="block-minigame__form" action="">
+                <div class="block-minigame__divcontent">
+                    <h4 class="block-minigame__title">Камень, ножницы, бумага</h4>
+                    <p class="block-minigame__discription">Сыграй в популярную игру против компьютера.</p>
+                    <a class="block-minigame__link center" href="">Играть!</a>
+                </div>
+                <div class="block-minigame__divimg">
+                    <img class="block-minigame__img" src="img/rockpaperscissors.png" alt="">
+                </div>
+            </form>
+        </div>
+
+        <div class="block-minigame__game" id="randomcolorgenerator">
+            <form class="block-minigame__form" action="">
+                <div class="block-minigame__divimg">
+                    <img class="block-minigame__img" src="img/randomcolorgenerator.png" alt="">
+                </div>
+                <div class="block-minigame__divcontent">
+                    <h4 class="block-minigame__title">Генератор случайных цветов</h4>
+                    <p class="block-minigame__discription block-minigame__discription_mob">Игра, в которой при клике на
+                        кнопку фон страницы меняется
+                        на случайный.</p>
+                    <a class="block-minigame__link center" href="">Играть!</a>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+
+    <div class="footer">
+        <h3 class="footer__title">Все права защищены.</h3>
+    </div>
+
+
+    <script src="hw-4.js"></script>
+
+</body>
+
+</html>

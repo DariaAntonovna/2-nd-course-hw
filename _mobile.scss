@@ -1,0 +1,114 @@
+@media(max-width:767px) {
+
+    .center {
+        padding-left : 16px;
+        padding-right: 16px;
+    }
+
+    .header-block {
+
+        display       : flex;
+        flex-direction: column;
+        flex-wrap     : wrap;
+        align-items   : center;
+
+        &__title {
+            font-size  : 40px;
+            text-align : center;
+            padding-top: 147px;
+            max-width  : 376px;
+        }
+
+        &__discription {
+            font-size : 16px;
+            text-align: center;
+        }
+
+        &__link {
+            margin-top: 36px;
+            width     : 285px;
+            height    : 55px;
+            font-size : 16px;
+        }
+    }
+
+    .highlight {
+        font-size  : 16px;
+        line-height: 100%;
+    }
+
+    .block-game {
+        display: none;
+    }
+
+    .block-minigame {
+
+        padding-bottom: 48.88px;
+
+        &__game {
+            display       : flex;
+            flex-direction: column;
+            flex-wrap     : wrap;
+            align-items   : center;
+        }
+
+        &__header {
+            font-size: 40px;
+        }
+
+        &__form {
+            flex-direction: column;
+            align-items   : center;
+            max-width     : 343px;
+            height        : auto;
+        }
+
+        &__divcontent {
+            order : 1;
+            margin: 29.04px 29.04px 29.04px 32.67px;
+        }
+
+        &__img {
+            width : 100%;
+            height: auto;
+        }
+
+        &__title {
+            font-size : 32px;
+            margin-top: unset;
+        }
+
+        &__discription {
+            font-size  : 16px;
+            margin-top : 16px;
+            line-height: 100%;
+        }
+
+        &__discription_mob {
+            max-width : 285px;
+            max-height: 60px;
+        }
+
+        &__link {
+            width    : 285px;
+            height   : 55px;
+            font-size: 16px;
+
+        }
+
+
+    }
+
+    .footer {
+        height: 100px;
+
+        &__title {
+            font-size  : 16px;
+            padding-top: 40px;
+        }
+    }
+
+
+
+
+}
