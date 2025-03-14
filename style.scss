@@ -1,6 +1,6 @@
 * {
-    margin    : 0;
-    padding   : 0;
+    margin : 0;
+    padding: 0;
 }
 
 .body {
@@ -12,6 +12,36 @@
     padding-left : calc(50% - 600px);
     padding-right: calc(50% - 600px);
 }
+
+.starheader__mob {
+    display: none;
+}
+
+.starheader__1 {
+    position: absolute;
+    left    : 930px;
+}
+
+.starheader__2 {
+    position: absolute;
+    padding : 568px 344px 149px 1013px;
+}
+
+.starheader__3 {
+    position: absolute;
+    padding : 538px 455px 225px 948px;
+}
+
+.starheader__4 {
+    position: absolute;
+    padding : 94px 1320px 649px 63px;
+}
+
+.starheader__5 {
+    position: absolute;
+    padding : 69px 1249px 696px 156px;
+}
+
 
 .header {
     background-color   : #E1FF8F;
@@ -69,6 +99,7 @@
     background  : #FFFFFF;
 }
 
+
 .block-game {
     background-color   : #202027;
     background-size    : cover;
@@ -77,6 +108,26 @@
     display            : flex;
     flex-direction     : column;
     flex-wrap          : wrap;
+}
+
+.starblockgame__1 {
+    position   : absolute;
+    z-index    : 1;
+    left       : 1060px;
+    padding-top: 77px;
+
+}
+
+.starblockgame__2 {
+    position   : absolute;
+    padding-top: 770px;
+    left       : 25px;
+}
+
+.starblockgame__3 {
+    position   : absolute;
+    padding-top: 822px;
+    left       : 40px;
 }
 
 .block-game__mob {
@@ -129,7 +180,9 @@
 }
 
 .block-game__form_small {
-    height: 473px;
+    height  : 473px;
+    position: relative;
+    z-index : 2;
 }
 
 .block-game__form_medium {
@@ -187,6 +240,30 @@
     flex-direction     : column;
     flex-wrap          : wrap;
     padding-bottom     : 144px;
+}
+
+.starblockminigame__1 {
+    position   : absolute;
+    padding-top: 93px;
+    right      : 123.79px;
+}
+
+.starblockminigame__2 {
+    position   : absolute;
+    padding-top: 126px;
+    right      : 44.91px;
+}
+
+.starblockminigame__3 {
+    position   : absolute;
+    padding-top: 3600px;
+    right      : 52px;
+}
+
+.starblockminigame__4 {
+    position   : absolute;
+    padding-top: 3650px;
+    right      : 150px;
 }
 
 .block-minigame__game {
