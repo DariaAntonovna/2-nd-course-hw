@@ -19,27 +19,31 @@
 
 .starheader__1 {
     position: absolute;
-    left    : 930px;
+    right   : 0;
 }
 
 .starheader__2 {
     position: absolute;
-    padding : 568px 344px 149px 1013px;
+    top     : 568px;
+    left    : 1013px;
 }
 
 .starheader__3 {
     position: absolute;
-    padding : 538px 455px 225px 948px;
+    left    : 948px;
+    top     : 538px;
 }
 
 .starheader__4 {
     position: absolute;
-    padding : 94px 1320px 649px 63px;
+    top     : 94px;
+    left    : 63px;
 }
 
 .starheader__5 {
     position: absolute;
-    padding : 69px 1249px 696px 156px;
+    top     : 69px;
+    left    : 156px;
 }
 
 
@@ -113,7 +117,7 @@
 .starblockgame__1 {
     position   : absolute;
     z-index    : 1;
-    left       : 1060px;
+    right      : 0;
     padding-top: 77px;
 
 }

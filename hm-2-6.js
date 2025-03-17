@@ -18,9 +18,6 @@ do {
 //Задание 3
 let b = 7;
 while (b < 23) {
-    if (b == 23) {
-        break;
-    }
     console.log(b);
     b++;
 }
@@ -50,10 +47,9 @@ console.log('Количество итераций ' + num);
 let firstFriday = 3;
 let daysMonth = 31;
 
-for (let day = 1; day <= daysMonth; day++) {
-    if (day === firstFriday || (day - firstFriday) % 7 === 0) {
-        console.log(`Сегодня пятница, ${day}-е число. Необходимо подготовить отчет.`);
-    }
+for (let day = 1; day <= daysMonth; day += 7) {
+    console.log(`Сегодня пятница, ${day}-е число. Необходимо подготовить отчет.`);
+
 }
 
 
