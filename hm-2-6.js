@@ -44,13 +44,20 @@ console.log('Результат ' + c);
 console.log('Количество итераций ' + num);
 
 //Задание 6
-let firstFriday = 3;
 let daysMonth = 31;
 
-for (let day = 1; day <= daysMonth; day += 7) {
+for (let day = 3; day <= daysMonth; day += 7) {
     console.log(`Сегодня пятница, ${day}-е число. Необходимо подготовить отчет.`);
 
 }
+
+
+
+
+
+
+
+
 
 
 
