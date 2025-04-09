@@ -3,9 +3,9 @@ function getRandomNumber(min, max) {
 }
 
 function generateQuestion() {
-    
-    const num1 = getRandomNumber(1, 10); 
-    const num2 = getRandomNumber(1, 10); 
+
+    const num1 = getRandomNumber(1, 10);
+    const num2 = getRandomNumber(1, 10);
 
     const operations = ['+', '-', '*', '/'];
     const randomOperation = operations[getRandomNumber(0, operations.length - 1)];
@@ -37,13 +37,15 @@ function startGame() {
     const { question, operation, num1, num2 } = generateQuestion();
     const userAnswer = prompt(`Решите задачу: ${question}`);
 
-    const userAnswerNumber = parseFloat(userAnswer);
     const correctAnswer = calculateAnswer(num1, num2, operation);
 
-    if (userAnswerNumber === correctAnswer) {
+    if (parseFloat(userAnswer) === correctAnswer) {
         alert('Правильно! Молодец!');
     } else {
         alert(`Неправильно. Правильный ответ: ${correctAnswer}`);
     }
+
+    return false;
+
 }
 

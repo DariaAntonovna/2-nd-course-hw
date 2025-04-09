@@ -7,7 +7,7 @@ function guessNumberGame() {
 
         if (userAttempts === null) {
             alert('Конец игры. Загаданное число было:' + randomNumber);
-            return;
+            return false;
         }
 
         const num = Number(userAttempts);
@@ -22,7 +22,7 @@ function guessNumberGame() {
 
         if (num === randomNumber) {
             alert(`Поздравляю, ты угадал число ${randomNumber} за ${attempts} попыток!`);
-            return;
+            return false;
         }
 
         else if (num < randomNumber) {

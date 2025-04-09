@@ -293,13 +293,12 @@
 }
 
 .block-minigame__link {
+  font-family: "Montserrat";
   display: inline-block;
   text-decoration: none;
   font-weight: 600;
   font-size: 24px;
-  padding-top: 16px;
   color: #FFFFFF;
-  text-align: center;
   background: #202027;
   border: 1px solid #FFFFFF;
   box-sizing: border-box;
@@ -399,6 +398,7 @@
   .header-block__discription {
     font-size: 16px;
     text-align: center;
+    width: 296px;
   }
   .header-block__link {
     margin-top: 36px;

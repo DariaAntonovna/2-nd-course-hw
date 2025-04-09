@@ -2,7 +2,7 @@
 
 const numbers = [1, 5, 4, 10, 0, 3];
 for (let i = 0; i < numbers.length; i++) {
-    if (numbers[i] === 0) {
+    if (numbers[i] === 10) {
         break;
     }
     console.log(numbers[i]);
@@ -133,8 +133,8 @@ console.log('Четные значения', numberFilter);
 
 const averageArephmetic = [];
 
-for (let c = 0; c < 10; c++) {
-    averageArephmetic.push(Math.floor(Math.random() * 10));
+for (let c = 0; c < 6; c++) {
+    averageArephmetic.push(Math.floor(Math.random() * 10) + 1);
 }
 
 const sum = averageArephmetic.reduce((total, num) => total + num, 0);
