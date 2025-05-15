@@ -334,10 +334,12 @@
 }
 
 .block-minigame__img {
-    width        : 600px;
-    height       : 500px;
+    width        : 100%;
+    height       : 100%;
     border-radius: 30px;
+    object-fit   : cover;
 }
+
 
 .footer {
     background-color   : #BDED35;

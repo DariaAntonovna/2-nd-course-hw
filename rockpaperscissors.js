@@ -8,7 +8,14 @@ const gameStats = {
 function playRockPaperScissors() {
 
     const choices = ['камень', 'ножницы', 'бумага'];
-    const userChoice = prompt('Выберите: камень, ножницы или бумага?').toLocaleLowerCase();
+    const userInput = prompt('Выберите: камень, ножницы или бумага?').toLocaleLowerCase();
+
+    if (userInput === null || userInput.trim() === '') {
+        alert('Игра отменена.');
+        return;
+    }
+
+    const userChoice = userInput.toLocaleLowerCase().trim();
 
     if (!choices.includes(userChoice)) {
         alert('Некорректный ввод! Пожалуйста, выберите: камень, ножницы или бумага.');
