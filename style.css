@@ -315,9 +315,11 @@
 }
 
 .block-minigame__img {
-  width: 600px;
-  height: 500px;
+  width: 100%;
+  height: 100%;
   border-radius: 30px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .footer {
