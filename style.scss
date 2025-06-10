@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .body {
     font-family: "Montserrat", sans-serif;
     overflow-x : hidden
@@ -102,6 +106,49 @@
     border-color: #202027;
     background  : #FFFFFF;
 }
+
+
+.running-line {
+    height          : 90px;
+    background-color: #BDED35;
+    overflow        : hidden;
+    position        : relative;
+    display         : flex;
+    align-items     : center;
+    width           : 100%;
+}
+
+.running-line__content {
+    display     : flex;
+    align-items : center;
+    position    : absolute;
+    white-space : nowrap;
+    animation   : move 25s linear infinite;
+    will-change : transform;
+    padding-left: 100%;
+    gap         : 51px;
+}
+
+.running-line__item {
+    font-weight: 700;
+    font-size  : 30px;
+    flex-shrink: 0;
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+
+
+
 
 
 .block-game {
