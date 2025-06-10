@@ -30,6 +30,38 @@
             <a class="header-block__link" href="#aboutgame">Поехали!</a>
         </div>
     </section>
+
+
+    <div class="running-line">
+        <div class="running-line__content">
+            <span class="running-line__item">ВИКТОРИНА</span>
+            <img class="running-line__img" src="img/sratforline.svg"></img>
+            <span class="running-line__item">УГАДАЙ ЧИСЛО</span>
+            <img class="running-line__img" src="img/sratforline.svg"></img>
+            <span class="running-line__item">ПЕРЕВЕРНИ ТЕКСТ</span>
+            <img class="running-line__img" src="img/sratforline.svg"></img>
+            <span class="running-line__item">ПРОСТАЯ АРИФМЕТИКА</span>
+            <img class="running-line__img" src="img/sratforline.svg"></img>
+            <span class="running-line__item">КАМЕНЬ, НОЖНИЦЫ, БУМАГА</span>
+            <img class="running-line__img" src="img/sratforline.svg"></img>
+            <span class="running-line__item">ГЕНЕРАТОР СЛУЧАЙНЫХ ЦВЕТОВ</span>
+            <img class="running-line__img" src="img/sratforline.svg"></img>
+            <span class="running-line__item">ВИКТОРИНА</span>
+            <img class="running-line__img" src="img/sratforline.svg"></img>
+            <span class="running-line__item">УГАДАЙ ЧИСЛО</span>
+            <img class="running-line__img" src="img/sratforline.svg"></img>
+            <span class="running-line__item">ПЕРЕВЕРНИ ТЕКСТ</span>
+            <img class="running-line__img" src="img/sratforline.svg"></img>
+            <span class="running-line__item">ПРОСТАЯ АРИФМЕТИКА</span>
+            <img class="running-line__img" src="img/sratforline.svg"></img>
+            <span class="running-line__item">КАМЕНЬ, НОЖНИЦЫ, БУМАГА</span>
+            <img class="running-line__img" src="img/sratforline.svg"></img>
+            <span class="running-line__item">ГЕНЕРАТОР СЛУЧАЙНЫХ ЦВЕТОВ</span>
+            <img class="running-line__img" src="img/sratforline.svg"></img>
+        </div>
+    </div>
+
+
     <img class="starblockgame__1" src="img/starblockgame1.svg" alt="star">
     <img class="starblockgame__2" src="img/starblockgame2.svg" alt="star">
     <img class="starblockgame__3" src="img/starblockgame3.svg" alt="star">
@@ -158,6 +190,7 @@
                 <div class="block-minigame__divimg">
                     <img class="block-minigame__img" src="img/turnthetextover.png" alt="">
                 </div>
+                <div id="result" class="block-minigame__result"></div>
             </form>
         </div>
 
@@ -172,6 +205,7 @@
                     <p class="block-minigame__discription">Отвечай на вопросы викторины с вариантами ответов.</p>
                     <button class="block-minigame__link center" href="#" onclick="startQuiz();">Играть!</button>
                 </div>
+                <div id="quiz-result" class="block-minigame__result"></div>
             </form>
         </div>
 
@@ -199,7 +233,7 @@
                     <p class="block-minigame__discription block-minigame__discription_mob">Игра, в которой при клике на
                         кнопку фон страницы меняется
                         на случайный.</p>
-                    <button class="block-minigame__link center" href="">Играть!</button>
+                    <button class="block-minigame__link center" href="#" id="playButton">Играть!</button>
                 </div>
             </form>
         </div>
@@ -224,6 +258,7 @@
     <script src="flipthetext.js"></script>
     <script src="quiz.js"></script>
     <script src="rockpaperscissors.js"></script>
+    <script src="randomcolorgenerator.js"></script>
 
 </body>
 
